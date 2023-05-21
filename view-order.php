@@ -121,7 +121,7 @@ if(isset($_POST['order-cancel-btn'])){
                 <div class='section-two' onclick=location.href='view-product.php?product_id=$productID'>
                     <img src='images/$productImage'>
                     <p id='name'> $productName <br> <spin id='btn'> See more details about this product </spin></p>
-                    <p id='price'> Total Price: <span class='highlight'>Rs $productPrice</span> <br> Pay by Cash on delivery </p>
+                    <p id='price'> Total Price: <span class='highlight'>USD $productPrice</span> <br> Pay by Cash on delivery </p>
                 </div>
             "?>
 
@@ -171,11 +171,11 @@ if(isset($_POST['order-cancel-btn'])){
                 <h1> Total Price</h1>
                 <div class='table'>
                     <p> Sub Total</p>
-                    <?php echo"<p class='right'> Rs $productPrice</p>";?>
+                    <?php echo"<p class='right'> USD $productPrice</p>";?>
                     <p> Shipping Fee</p>
-                    <p class='right'> Rs 0</p>
+                    <p class='right'> USD 0</p>
                     <p class='ftotal'> Total Price </p>
-                    <?php echo"<p class='right ftotal'> Rs $productPrice</p>";?>
+                    <?php echo"<p class='right ftotal'> USD $productPrice</p>";?>
 
                 </div>
             </div>

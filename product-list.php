@@ -93,7 +93,7 @@ if(isset($searchKeyword))
                         <div class='product' onclick=location.href='view-product.php?product_id=$productID'>
                             <img src='images/$productImage' alt=''>
                             <h1>$productName</h1>
-                            <h2>Rs $productPrice</h2>
+                            <h2>USD $productPrice</h2>
                         </div>
                         ";
                     }
