@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.work-place .summary{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    color: white;
+    justify-content: center;
+    column-gap: 50px;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.work-place .summary h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.work-place .summary p{
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+.work-place .summary .products, .users, .orders, .admins{
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.work-place .summary .products{
+    background: linear-gradient(#141e30, #243b55);
+    border: 5px solid #03e9f44a ;
+
+
+}
+
+.work-place .summary .users{
+    background: linear-gradient(#141e30, #243b55);
+    border: 5px solid #03e9f44a ;
+
+}
+
+.work-place .summary .orders{
+    background: linear-gradient(#141e30, #243b55);
+    border: 5px solid #03e9f44a ;
+
+}
+
+.work-place .summary .admins{
+    background: linear-gradient(#141e30, #243b55);
+    border: 5px solid #03e9f44a ;
+}
+
+.work-place .summary img{
+    width: 60px;
+    padding: 10px;
+}
+
+.work-place .summary-two{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 5px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.work-place .summary-two .orders-two .list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-top: 20px;
+    text-align: center;
+}
+.work-place .summary-two .users-two .list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+.work-place .summary-two h1{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.work-place .summary-two p{
+    padding: 5px 10px;
+}
+
+.work-place .summary-two .right{
+    text-align: right;
+}
+
+.work-place .summary-two .users-two{
+    border-right: 1px solid rgb(230, 230, 230);
+}
+
+i {
+
+    font-size: 30px;
+    display: block;
+    padding: 10px;
+    color: #03e9f4;
+}
+
+i + h1{
+
+    padding-bottom: 10px;
+}
+i ~ p {
+    color:#03e9f4 ;
+}
+  img#userimg{
+    width: 20px;
+    border-radius: 20px;
+}
