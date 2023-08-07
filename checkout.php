@@ -90,12 +90,12 @@ $rowUserAddress = mysqli_fetch_array($runUserAddress);
                 <div class='product-container' onclick=location.href='view-product.php?product_id=$productID'>
                     <img src='images/$productImage'>
                     <p id='name'> $productName </p>
-                    <p id='price'> Price: <span id='priceValue'>Rs $productPrice</span> </p>
+                    <p id='price'> Price: <span id='priceValue'>USD $productPrice</span> </p>
                 </div>
             "?>
             <div class='shipping-fee'>
                 <p>Shipping Fee</p>
-                <p id='value'>Rs 0</p>
+                <p id='value'>USD 0</p>
                 <p>Payment Method</p>
                 <p id='value'>Cash on Delivery</p>
             </div>
@@ -129,11 +129,11 @@ $rowUserAddress = mysqli_fetch_array($runUserAddress);
                 <h1> Total Price</h1>
                 <div class='table'>
                     <p> Product Price</p>
-                    <?php echo"<p class='right'> Rs $productPrice</p>";?>
+                    <?php echo"<p class='right'> USD $productPrice</p>";?>
                     <p> Shipping Fee</p>
-                    <p class='right'> Rs 0</p>
+                    <p class='right'> USD 0</p>
                     <p class='ftotal'> Total Price </p>
-                    <?php echo"<p class='right ftotal'> Rs $productPrice</p>";?>
+                    <?php echo"<p class='right ftotal'> USD $productPrice</p>";?>
                 </div>
                 <?php echo"<button type='button' id='confirmBtn' onClick='placeOrder($productID ,\"$productName\")'> Confirm
                     Order</button>"?>
